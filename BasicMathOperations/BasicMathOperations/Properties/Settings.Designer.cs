@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BasicMathOperations1.Properties
+namespace BasicMathOperations.Properties
 {
 
 

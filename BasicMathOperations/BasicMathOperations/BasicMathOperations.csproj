@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F4352F15-50B4-4EE6-B56F-3C810E6735D4}</ProjectGuid>
+    <ProjectGuid>{9A56F13D-7D43-4C57-819A-577711053397}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>BasicMathOperations1</RootNamespace>
-    <AssemblyName>BasicMathOperations1</AssemblyName>
+    <RootNamespace>BasicMathOperations</RootNamespace>
+    <AssemblyName>BasicMathOperations</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

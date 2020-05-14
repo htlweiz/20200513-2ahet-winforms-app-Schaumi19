@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
-[assembly: AssemblyTitle("BasicMathOperations1")]
+[assembly: AssemblyTitle("BasicMathOperations")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BasicMathOperations1")]
+[assembly: AssemblyProduct("BasicMathOperations")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-[assembly: Guid("f4352f15-50b4-4ee6-b56f-3c810e6735d4")]
+[assembly: Guid("9a56f13d-7d43-4c57-819a-577711053397")]
 
 // Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
 //

@@ -7,3 +7,12 @@ C:\Users\manue\source\repos\BasicMathOperations\BasicMathOperations\obj\Debug\Ba
 C:\Users\manue\source\repos\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.csproj.GenerateResource.cache
 C:\Users\manue\source\repos\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.exe
 C:\Users\manue\source\repos\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.pdb
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.csprojAssemblyReference.cache
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.Form1.resources
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.Properties.Resources.resources
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.csproj.GenerateResource.cache
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.exe
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\obj\Debug\BasicMathOperations.pdb
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\bin\Debug\BasicMathOperations.exe.config
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\bin\Debug\BasicMathOperations.exe
+C:\Users\manue\source\repos\20200513-2ahet-winforms-app-Schaumi19\BasicMathOperations\BasicMathOperations\bin\Debug\BasicMathOperations.pdb

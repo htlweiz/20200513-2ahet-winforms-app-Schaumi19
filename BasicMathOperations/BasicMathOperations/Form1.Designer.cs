@@ -40,13 +40,15 @@
             this.btn_Produkt = new System.Windows.Forms.Button();
             this.btn_Division = new System.Windows.Forms.Button();
             this.btn_Clear = new System.Windows.Forms.Button();
+            this.btn_Exponentieren = new System.Windows.Forms.Button();
+            this.btn_Wurzel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_Taschenrechner
             // 
             this.lbl_Taschenrechner.AutoSize = true;
             this.lbl_Taschenrechner.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Taschenrechner.Location = new System.Drawing.Point(107, 22);
+            this.lbl_Taschenrechner.Location = new System.Drawing.Point(108, 9);
             this.lbl_Taschenrechner.Name = "lbl_Taschenrechner";
             this.lbl_Taschenrechner.Size = new System.Drawing.Size(211, 31);
             this.lbl_Taschenrechner.TabIndex = 0;
@@ -56,7 +58,7 @@
             // lbl_Zahl1
             // 
             this.lbl_Zahl1.AutoSize = true;
-            this.lbl_Zahl1.Location = new System.Drawing.Point(40, 82);
+            this.lbl_Zahl1.Location = new System.Drawing.Point(12, 59);
             this.lbl_Zahl1.Name = "lbl_Zahl1";
             this.lbl_Zahl1.Size = new System.Drawing.Size(37, 13);
             this.lbl_Zahl1.TabIndex = 1;
@@ -65,7 +67,7 @@
             // lbl_Zahl2
             // 
             this.lbl_Zahl2.AutoSize = true;
-            this.lbl_Zahl2.Location = new System.Drawing.Point(40, 132);
+            this.lbl_Zahl2.Location = new System.Drawing.Point(12, 109);
             this.lbl_Zahl2.Name = "lbl_Zahl2";
             this.lbl_Zahl2.Size = new System.Drawing.Size(37, 13);
             this.lbl_Zahl2.TabIndex = 2;
@@ -74,7 +76,7 @@
             // lbl_Ergebnis
             // 
             this.lbl_Ergebnis.AutoSize = true;
-            this.lbl_Ergebnis.Location = new System.Drawing.Point(40, 182);
+            this.lbl_Ergebnis.Location = new System.Drawing.Point(12, 159);
             this.lbl_Ergebnis.Name = "lbl_Ergebnis";
             this.lbl_Ergebnis.Size = new System.Drawing.Size(51, 13);
             this.lbl_Ergebnis.TabIndex = 3;
@@ -82,7 +84,7 @@
             // 
             // txt_Zahl1
             // 
-            this.txt_Zahl1.Location = new System.Drawing.Point(113, 79);
+            this.txt_Zahl1.Location = new System.Drawing.Point(100, 56);
             this.txt_Zahl1.Name = "txt_Zahl1";
             this.txt_Zahl1.Size = new System.Drawing.Size(100, 20);
             this.txt_Zahl1.TabIndex = 4;
@@ -91,7 +93,7 @@
             // 
             // txt_Zahl2
             // 
-            this.txt_Zahl2.Location = new System.Drawing.Point(113, 129);
+            this.txt_Zahl2.Location = new System.Drawing.Point(100, 106);
             this.txt_Zahl2.Name = "txt_Zahl2";
             this.txt_Zahl2.Size = new System.Drawing.Size(100, 20);
             this.txt_Zahl2.TabIndex = 5;
@@ -100,7 +102,7 @@
             // 
             // txt_Ergebnis
             // 
-            this.txt_Ergebnis.Location = new System.Drawing.Point(113, 179);
+            this.txt_Ergebnis.Location = new System.Drawing.Point(100, 156);
             this.txt_Ergebnis.Name = "txt_Ergebnis";
             this.txt_Ergebnis.ReadOnly = true;
             this.txt_Ergebnis.Size = new System.Drawing.Size(100, 20);
@@ -110,7 +112,7 @@
             // btn_Summe
             // 
             this.btn_Summe.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Summe.Location = new System.Drawing.Point(269, 79);
+            this.btn_Summe.Location = new System.Drawing.Point(256, 56);
             this.btn_Summe.Name = "btn_Summe";
             this.btn_Summe.Size = new System.Drawing.Size(50, 50);
             this.btn_Summe.TabIndex = 7;
@@ -121,7 +123,7 @@
             // btn_Differenz
             // 
             this.btn_Differenz.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Differenz.Location = new System.Drawing.Point(269, 149);
+            this.btn_Differenz.Location = new System.Drawing.Point(256, 126);
             this.btn_Differenz.Name = "btn_Differenz";
             this.btn_Differenz.Size = new System.Drawing.Size(50, 50);
             this.btn_Differenz.TabIndex = 8;
@@ -132,7 +134,7 @@
             // btn_Produkt
             // 
             this.btn_Produkt.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Produkt.Location = new System.Drawing.Point(334, 79);
+            this.btn_Produkt.Location = new System.Drawing.Point(321, 56);
             this.btn_Produkt.Name = "btn_Produkt";
             this.btn_Produkt.Size = new System.Drawing.Size(50, 50);
             this.btn_Produkt.TabIndex = 9;
@@ -143,7 +145,7 @@
             // btn_Division
             // 
             this.btn_Division.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Division.Location = new System.Drawing.Point(334, 149);
+            this.btn_Division.Location = new System.Drawing.Point(321, 126);
             this.btn_Division.Name = "btn_Division";
             this.btn_Division.Size = new System.Drawing.Size(50, 50);
             this.btn_Division.TabIndex = 10;
@@ -154,7 +156,7 @@
             // btn_Clear
             // 
             this.btn_Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Clear.Location = new System.Drawing.Point(206, 205);
+            this.btn_Clear.Location = new System.Drawing.Point(193, 182);
             this.btn_Clear.Name = "btn_Clear";
             this.btn_Clear.Size = new System.Drawing.Size(67, 35);
             this.btn_Clear.TabIndex = 11;
@@ -162,11 +164,36 @@
             this.btn_Clear.UseVisualStyleBackColor = true;
             this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
+            // btn_Exponentieren
+            // 
+            this.btn_Exponentieren.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.btn_Exponentieren.Location = new System.Drawing.Point(387, 126);
+            this.btn_Exponentieren.Name = "btn_Exponentieren";
+            this.btn_Exponentieren.Size = new System.Drawing.Size(50, 50);
+            this.btn_Exponentieren.TabIndex = 13;
+            this.btn_Exponentieren.Text = "a^b";
+            this.btn_Exponentieren.UseVisualStyleBackColor = true;
+            this.btn_Exponentieren.Click += new System.EventHandler(this.btn_Exponentieren_Click);
+            // 
+            // btn_Wurzel
+            // 
+            this.btn_Wurzel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.btn_Wurzel.Location = new System.Drawing.Point(387, 56);
+            this.btn_Wurzel.Name = "btn_Wurzel";
+            this.btn_Wurzel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_Wurzel.Size = new System.Drawing.Size(50, 50);
+            this.btn_Wurzel.TabIndex = 12;
+            this.btn_Wurzel.Text = "a√b";
+            this.btn_Wurzel.UseVisualStyleBackColor = true;
+            this.btn_Wurzel.Click += new System.EventHandler(this.btn_Wurzel_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 246);
+            this.ClientSize = new System.Drawing.Size(455, 223);
+            this.Controls.Add(this.btn_Exponentieren);
+            this.Controls.Add(this.btn_Wurzel);
             this.Controls.Add(this.btn_Clear);
             this.Controls.Add(this.btn_Division);
             this.Controls.Add(this.btn_Produkt);
@@ -200,6 +227,8 @@
         private System.Windows.Forms.Button btn_Produkt;
         private System.Windows.Forms.Button btn_Division;
         private System.Windows.Forms.Button btn_Clear;
+        private System.Windows.Forms.Button btn_Exponentieren;
+        private System.Windows.Forms.Button btn_Wurzel;
     }
 }
 

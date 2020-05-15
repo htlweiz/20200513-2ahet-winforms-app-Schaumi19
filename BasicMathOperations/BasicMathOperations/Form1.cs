@@ -119,7 +119,7 @@ namespace BasicMathOperations
                 }
                 else
                 {
-                    txt_Ergebnis.Text = Convert.ToString(Zahl1 / Zahl2);
+                    txt_Ergebnis.Text = Convert.ToString((double) Zahl1 / Zahl2);
                     lbl_Ergebnis.Text = "Quotientenwert:";
                 }
             }

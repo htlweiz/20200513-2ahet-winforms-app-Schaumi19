@@ -158,18 +158,29 @@ namespace BasicMathOperations
 
             if (!Error)
             {
-                if (Zahl2 < 0)
+                if(Zahl1 == 0)
                 {
-                    MessageBox.Show("Negative Wurzel ist nicht definiert", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Nullte Wurzel ist nicht definiert", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txt_Zahl2.Focus();
                     txt_Zahl2.SelectAll();
                     Error = true;
                 }
                 else
                 {
-                    txt_Ergebnis.Text = Convert.ToString(Math.Pow(Zahl2, 1.0 / Zahl1));
-                    lbl_Ergebnis.Text = "Wurzel:";
+                    if (Zahl2 < 0) 
+                    {
+                        MessageBox.Show("Negative Wurzel ist nicht definiert", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        txt_Zahl2.Focus();
+                        txt_Zahl2.SelectAll();
+                        Error = true;
+                    }
+                    else
+                    {
+                        txt_Ergebnis.Text = Convert.ToString(Math.Pow(Zahl2, 1.0 / Zahl1));
+                        lbl_Ergebnis.Text = "Wurzel:";
+                    }
                 }
+                
             }
             
         }
@@ -181,8 +192,24 @@ namespace BasicMathOperations
         /// <param name="e"></param>
         private void btn_Exponentieren_Click(object sender, EventArgs e)
         {
-            txt_Ergebnis.Text = Convert.ToString(Math.Pow(GetNumberOne(), GetNumberTwo()));
-            lbl_Ergebnis.Text = "Potenz:";
+            int Zahl1 = 0;
+            int Zahl2 = 0;
+            Zahl2 = GetNumberTwo();
+            Zahl1 = GetNumberOne();
+
+            if(Zahl2 <= 0 && Zahl1 == 0)
+            {
+                MessageBox.Show("Ote und negative Potenz von 0 ist nicht definiert", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txt_Zahl2.Focus();
+                txt_Zahl2.SelectAll();
+                Error = true;
+            }
+            else
+            {
+                txt_Ergebnis.Text = Convert.ToString(Math.Pow(GetNumberOne(), GetNumberTwo()));
+                lbl_Ergebnis.Text = "Potenz:";
+            }
+            
         }
     }
 }
